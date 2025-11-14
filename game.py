@@ -1,6 +1,5 @@
 import pygame
 import sys
-import os
 # Algväärtustame pygame
 pygame.init()
 
@@ -48,5 +47,6 @@ while running:
         # Teksti keskele
         text_rect = text_surface.get_rect(center=b["rect"].center)
         screen.blit(text_surface, text_rect)
+
 
     pygame.display.flip()
